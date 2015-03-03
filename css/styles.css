@@ -1,0 +1,131 @@
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+    
+
+.headerWrapperHome {
+    width: 100%;
+    height: 120px;
+    margin: 2%;
+    background-color: #00011f;
+    border-color: #000;
+    
+}
+
+h1 {
+    color: #f6f7f9;
+    float:left;
+    margin-right: 2.5%;
+    margin-left:2.5%;
+    margin-bottom: 0%;
+    font-size: 4.5em;
+}
+
+.socialMediaIconsFirst {
+    max-height: 181px;
+    width:auto;
+    margin-top : 60px;
+}
+
+.socialMediaIcons {
+    max-height: 181px;
+    width:auto;
+    
+}
+    
+
+body {
+    width:100%;
+    height: 80%;
+    margin: 10% 2% 2% 2%;
+    background-color: #00011f;
+    border-color: #000;
+}
+
+
+
+#mainBackground {
+    width: 900px;
+    height: 500px;
+    margin: 2%;
+    background-image: url("http://www.hickerphoto.com/images/1024/whales-fog-54289.jpg");
+    
+}
+
+.navBarHome {
+    width: 100%;
+    height: 10%;
+    margin: 0% 0% 0% 0% ;
+    background-color: #3b4859;
+    border-color: #000;
+    float:left;
+}
+
+.navBarFirst {
+    width:17.5%;
+    height:100%;
+    margin-left:2.5%;
+    border-left-color: #000;
+    float:left;
+    color: #f6f7f9;
+}
+
+.navBar {
+    width:20%;
+    height:100%;
+    border-left-color: #000;
+    float:left;
+    color: #f6f7f9;
+}
+
+.sideBarTop {
+    width: 25%;
+    height: auto;
+    margin: 0% 2.5% 0% 72.5%;
+    background-color: #3b4859;
+    border-color: #000;
+    float:left;
+}
+
+#first {
+    font-size: 2em;
+}
+
+#galleryThumb {
+   width: 90%;
+   margin: 5%;
+}
+
+p {
+    color: #f6f7f9;
+    margin:2%;
+    padding: 2%;
+}
+    
+.sideBarBottom {
+    width: 25%;
+    height: auto;
+    margin: 12.5% 2.5% 0% 72.5%; 
+    background-color: #00011f;
+    border-color: #000;
+   
+    float:left;
+}
+
+p {
+  color: #f6f7f9;
+}
+
+.copy {
+  color: #29323d
+}

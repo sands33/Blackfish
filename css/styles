@@ -1,0 +1,58 @@
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+    
+
+.headerWrapperHome {
+    width: 96%;
+    height: auto;
+    margin: 2%;
+    background-color: #00011f;
+    border-color: #000;
+    text: #f6f7f9;
+}
+
+.body {
+    width: 1000px;
+    height: 500px;
+    margin: 2%;
+    /*background-color: #00011f;*/
+    border-color: #000;
+    text: #f6f7f9;
+    background-image: url("images/orca_whale.jpg");
+}
+
+#mainBackground {
+   width: 96%;
+    height: auto;
+    margin: 2%;
+}
+
+.sideBarTop {
+    width: 20%;
+    height: 20%;
+    margin: 2%;
+    background-color: #00011f;
+    border-color: #000;
+    text: #f6f7f9;
+}
+    
+.sideBarBottom {
+    width: 20%;
+    height: auto;
+    margin: 2%;
+    background-color: #00011f;
+    border-color: #000;
+    text: #f6f7f9;
+}
+    
