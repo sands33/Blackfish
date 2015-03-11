@@ -36,6 +36,7 @@ a:active {
     text-decoration: underline;
 }   */   
 
+
 .headerWrapperHome {
     width: 100%;
     height: 120px;
@@ -88,8 +89,8 @@ body {
     width: 1024px;
     height: 681px;
     margin: 2% 2% 0% 2%;
-    background-image: url("http://www.hickerphoto.com/images/1024/whales-fog-54289.jpg");
-    border-bottom-color: #29323d;
+    
+    border-bottom-color: #f6f7f9;
     border-bottom-style: solid;
     border-bottom-width: 50px;
     border-top-left-radius: 20px;
@@ -116,25 +117,16 @@ body {
     color: #f6f7f9
 }
 
-.navBarFirst {
+.navBarFirstPages {
     width:9%;
     height:100%;
-    margin:4% 7.5% 0% 7.5%;
+    margin:3.5% 7.5% 0% 7.5%;
     border-left-color: #000;
     float:left;
     color: #29323d;
 }
 
-.navBarSecond {
-    width:9%;
-    height:100%;
-    margin:3% 7.5% 0% 2%;
-    border-left-color: #000;
-    float:left;
-    color: #29323d;
-}
-
-.navBarThird {
+.navBarSecondPages {
     width:9%;
     height:100%;
     margin:1.5% 7.5% 0% 2%;
@@ -143,19 +135,28 @@ body {
     color: #29323d;
 }
 
-.navBarForth {
+.navBarThirdPages {
     width:9%;
     height:100%;
-    margin:4% 5% 0% 5%;
+    margin:.5% 7.5% 0% 2%;
     border-left-color: #000;
     float:left;
     color: #29323d;
 }
 
-.navBarFifth {
+.navBarForthPages {
     width:9%;
     height:100%;
-    margin:4% 0% 0% 1%;
+    margin:3% 5% 0% 5%;
+    border-left-color: #000;
+    float:left;
+    color: #29323d;
+}
+
+.navBarFifthPages {
+    width:9%;
+    height:100%;
+    margin:3% 0% 0% 1%;
     border-left-color: #000;
     float:left;
     color: #29323d;
@@ -171,13 +172,40 @@ body {
     border-bottom-right-radius: 10px;
     float:left;
 }
-    
-#headline {
-    font-size: 3.75em;
-}
 
 #first {
-    font-size: 1.5em;
+    font-size: 2em;
+}
+
+#firstLessons{
+    font-size: 2em;
+    margin-left: 5%;
+}
+
+.indent {
+    margin-left: 5%
+}
+
+#question {
+    font-size: 2em;
+    font-style: italic;
+}
+
+#answer {
+    font-size: 2em;
+    margin-right: 20%;
+}
+
+.optionsBullet {
+    margin-left:10%;
+}
+
+.optionsBullet li {
+    list-style-type: none;
+}
+
+#headline {
+    font-size: 4em;
 }
 
 #galleryThumb {
@@ -190,13 +218,23 @@ body {
 p {
     color: #f6f7f9;
     margin:2%;
-    padding: 10% 2% 2% 2%;
+    padding: 2% 2% 2% 2%;
+}
+
+#bio {
+    margin: 2% 5% 0% 5%;
+    font-size: 1em;
+}
+
+#bio_small {
+    margin: 2% 0% 0% 0%;
+    font-size: .8em;
 }
     
-.sideBarBottom {
-    width: 1018px;
+.sideBarBottomPages {
+    width: 99.5%;
     height: auto;
-    margin: 0% 12% 0% 2%; 
+    margin: 0% .5% 0% 0%; 
     background-color: #f6f7f9;
     border-bottom-color: #29323d;
     border-bottom-right-radius: 50px;
@@ -218,9 +256,20 @@ p {
    
 }
 
-.copy {
+#black {
+    color: #29323d;
+    margin: 0% 5%;
+}
+
+a[href^="tel:"]:before {
+    content: "\260E";
+    display: block;
+    margin: 0%;
+    color: #3b4859;
+}
+
+footer {
   color: #29323d;
     font-size:0.5em;
-    margin: 33% 25% 0% 44%;
-  
-}
+    margin: 55% 25% 0% 44%;
+  }
